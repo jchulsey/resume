@@ -25,7 +25,7 @@ export default function Contact() {
                 <input 
                   type="text" 
                   id="name" 
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-primary text-white"
+                  className="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:border-primary text-white"
                   placeholder="Your name"
                 />
               </div>
@@ -34,7 +34,7 @@ export default function Contact() {
                 <input 
                   type="email" 
                   id="email" 
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-primary text-white"
+                  className="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:border-primary text-white"
                   placeholder="Your email"
                 />
               </div>
@@ -45,7 +45,7 @@ export default function Contact() {
               <input 
                 type="text" 
                 id="subject" 
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-primary text-white"
+                className="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:border-primary text-white"
                 placeholder="Subject"
               />
             </div>
@@ -55,7 +55,7 @@ export default function Contact() {
               <textarea 
                 id="message" 
                 rows={5}
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-primary text-white"
+                className="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:border-primary text-white"
                 placeholder="Your message"
               ></textarea>
             </div>

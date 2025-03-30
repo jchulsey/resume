@@ -59,7 +59,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div 
               key={project.id} 
-              className="group bg-secondary border border-gray-800 rounded-lg overflow-hidden hover:border-primary transition-all duration-300"
+              className="group bg-secondary border border-gray-500 rounded-lg overflow-hidden hover:border-primary transition-all duration-300"
             >
               <div className="h-48 relative overflow-hidden bg-gray-900">
                 {/* Replace with actual project images later */}
@@ -90,7 +90,7 @@ export default function Projects() {
                   {project.technologies.map((tech) => (
                     <span 
                       key={tech} 
-                      className="text-xs bg-gray-800 text-primary px-2 py-1 rounded"
+                      className="text-xs bg-gray-500 text-primary px-2 py-1 rounded"
                     >
                       {tech}
                     </span>
